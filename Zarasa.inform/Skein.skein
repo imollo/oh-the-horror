@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x1bab7a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x1bab7a0"/>
+  <item nodeId="node-0x1bab7a0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Sarasa
+An Interactive Fiction by Ignacio Mollo
+Release 1 / Serial number 171023 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Abstract Mathematical Setting
+You feel like you could move in infinitely many independent directions if you tried.
+
+Lying in the floor and unable to move by itself, there is a constant function.
+
+You can also see a sign function and a differential operator here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
