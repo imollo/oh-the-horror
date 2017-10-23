@@ -10,7 +10,7 @@ Section 1 - Constant Functions
 
 A constant function is a kind of function. Constant functions are always differentiable. A constant function has a number called the stubbornness. The stubbornness of a constant function is usually 0. 
 
-After consulting or asking a constant function about anything, say "[stubbornness]"
+After consulting a constant function about anything, say "[stubbornness]"
 
 The description of a constant function usually is "[if handled] It has a label on it, which reads '[stubbornness]'. [otherwise] It looks boring."
 
@@ -33,17 +33,16 @@ Book 2 - Commands
 
 Chapter 1 - Differentiation
 
-Differentiating is an action applying to one thing. Understand "differentiate [something]" as differentiating.
+Differentiating is an action applying to one thing. Understand "differentiate [something]" and "derive [something]" as differentiating.
 
 Check differentiating:
 	if the player is not carrying the differential operator:
-		say "(taking the differential operator first)";
-		silently try taking the differential operator;
-		if the player is not carrying the differential operator, stop the action.
+		say "I wouldn't know where to start!" instead.
 
 Carry out differentiating:
 	if the player is not carrying the noun:
-		say "(taking [the noun] first)";
+		say "(taking [the noun] first)[paragraph break]";
+		silently try taking the noun;
 		if the player is not carrying the noun, stop the action;
 	if the noun is a constant function:
 		now the stubbornness is 0;
@@ -62,4 +61,4 @@ The Abstract Mathematical Setting is a room. "You feel like you could move in in
 There is a constant function in the Setting. "Lying in the floor and unable to move by itself, there is a constant function."  The stubbornness is 5.
 The differential operator is in the Setting.
 
-Test me with "evaluating constant function on constant function"
+Test derive with "derive constant function/take differential operator/derive constant function/x constant function"
