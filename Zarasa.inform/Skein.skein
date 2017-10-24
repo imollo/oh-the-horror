@@ -1,26 +1,897 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x1bab7a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x15377a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x1bab7a0"/>
-  <item nodeId="node-0x1bab7a0">
+  <activeNode nodeId="node-0x7f15640cd730"/>
+  <item nodeId="node-0x15377a0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-Sarasa
+Zarasa
 An Interactive Fiction by Ignacio Mollo
-Release 1 / Serial number 171023 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 171024 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Abstract Mathematical Setting
 You feel like you could move in infinitely many independent directions if you tried.
 
 Lying in the floor and unable to move by itself, there is a constant function.
 
-You can also see a sign function and a differential operator here.
+You can also see a sign function, a differential operator, a solid number and a linear function here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1537920"/>
+      <child nodeId="node-0x1537f20"/>
+      <child nodeId="node-0x1c06130"/>
+      <child nodeId="node-0x1c2fc00"/>
+      <child nodeId="node-0x1c4b100"/>
+      <child nodeId="node-0x1c4b280"/>
+      <child nodeId="node-0x1c4be80"/>
+      <child nodeId="node-0x1c73120"/>
+      <child nodeId="node-0x1c735a0"/>
+      <child nodeId="node-0x1c738a0"/>
+      <child nodeId="node-0x1c73a20"/>
+      <child nodeId="node-0x1c73ea0"/>
+      <child nodeId="node-0x1c90460"/>
+      <child nodeId="node-0x1c90a60"/>
+      <child nodeId="node-0x1c90be0"/>
+      <child nodeId="node-0x1c90ee0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1537920">
+    <command xml:space="preserve">differentiate constant function</command>
+    <result xml:space="preserve">I wouldn&apos;t know where to start!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1537aa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1537aa0">
+    <command xml:space="preserve">take the differential operator</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1537c20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1537c20">
+    <command xml:space="preserve">derive the constant function</command>
+    <result xml:space="preserve">(taking the constant function first)It was his own fault, really.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1537da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1537da0">
+    <command xml:space="preserve">x constant function</command>
+    <result xml:space="preserve"> It has a label on it, which reads &quot;0&quot;. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1537f20">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] derive constant function
+I wouldn&apos;t know where to start!
+
+&gt;[2] take differential operator
+Taken.
+
+&gt;[3] derive constant function
+(taking the constant function first)
+
+It was his own fault, really.
+
+&gt;[4] x constant function
+ It has a label on it, which reads &quot;0&quot;. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c06130">
+    <command xml:space="preserve">test crap</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] derive constant function
+I wouldn&apos;t know where to start!
+
+&gt;[2] take differential operator
+Taken.
+
+&gt;[3] derive constant function
+(taking the constant function first)
+
+It was his own fault, really.
+
+&gt;[4] x constant function
+ It has a label on it, which reads &quot;0&quot;. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c062b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c062b0">
+    <command xml:space="preserve">ask constant function about weather</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c06430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c06430">
+    <command xml:space="preserve">ask constant function about the weather</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c065b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c065b0">
+    <command xml:space="preserve">ask the constant function about the weather</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c06730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c06730">
+    <command xml:space="preserve">ask the constant function about weather</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c068b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c068b0">
+    <command xml:space="preserve">ask constant function about weather</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c06a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c06a30">
+    <command xml:space="preserve">ask constant function about asdqw</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c06bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c06bb0">
+    <command xml:space="preserve">consult constant function about adnqw</command>
+    <result xml:space="preserve">0
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c06d30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c06d30">
+    <command xml:space="preserve">ask constant function about adnqw</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c06eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c06eb0">
+    <command xml:space="preserve">ask constant function</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2f180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2f180">
+    <command xml:space="preserve">ask myself</command>
+    <result xml:space="preserve">What do you want to ask yourself for?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2f300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2f300">
+    <command xml:space="preserve">weather</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2f480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2f480">
+    <command xml:space="preserve">ask myself about constant function</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2f600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2f600">
+    <command xml:space="preserve">ask constant function about constant function</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2f780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2f780">
+    <command xml:space="preserve">ask &quot;constant function&quot; about constant function</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2f900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2f900">
+    <command xml:space="preserve">ask &quot;constant function&quot; about &quot;constant function&quot;</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2fa80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2fa80">
+    <command xml:space="preserve">ask constant function about &quot;constant function&quot;</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c2fc00">
+    <command xml:space="preserve">test derive</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] derive myself
+That noun did not make sense in this context.
+
+&gt;[2] differentiate myself
+That noun did not make sense in this context.
+
+&gt;[3] derive constant function
+I wouldn&apos;t know where to start!
+
+&gt;[4] take differential operator
+Taken.
+
+&gt;[5] derive constant function
+It was his own fault, really.
+
+(taking the constant function first)
+
+&gt;[6] x constant function
+ It has a label on it, which reads 0 . 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2fd80"/>
+      <child nodeId="node-0x7f15640cd730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2fd80">
+    <command xml:space="preserve">derive myself</command>
+    <result xml:space="preserve">That noun did not make sense in this context.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c2ff00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c2ff00">
+    <command xml:space="preserve">differentiate myself</command>
+    <result xml:space="preserve">That noun did not make sense in this context.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f15640cd730">
+    <command xml:space="preserve">test evaluate</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] evaluate sign function on number
+(first taking the sign function)
+
+It evaluates to -1.
+
+&gt;[2] evaluate sign function on constant function
+It evaluates to 1.
+
+&gt;[3] evaluate linear function on number
+(first taking the linear function)
+
+It evaluates to -13.0.
+
+&gt;[4] evaluate linear function on constant function
+It evaluates to 1.0.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c4b100">
+    <command xml:space="preserve">evaluate myself</command>
+    <result xml:space="preserve">That noun did not make sense in this context.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c4b280">
+    <command xml:space="preserve">take function</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c4b400"/>
+      <child nodeId="node-0x1c4ba00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c4b400">
+    <command xml:space="preserve">x funtion</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c4b580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c4b580">
+    <command xml:space="preserve">x function</command>
+    <result xml:space="preserve"> It has a label on it, which reads &quot;5.0&quot;. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c4b700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c4b700">
+    <command xml:space="preserve">consult function about weather</command>
+    <result xml:space="preserve">5.0
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c4b880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c4b880">
+    <command xml:space="preserve">tell function laksd</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c4ba00">
+    <command xml:space="preserve">x function</command>
+    <result xml:space="preserve"> It has a label on it, which reads  5.7. 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c4bb80"/>
+      <child nodeId="node-0x1c4bd00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c4bb80">
+    <command xml:space="preserve">consult constant function about weather</command>
+    <result xml:space="preserve">5 
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c4bd00">
+    <command xml:space="preserve">x number</command>
+    <result xml:space="preserve">It has the form of a 7 . It looks sturdy.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c4be80">
+    <command xml:space="preserve">consult constant function about weather</command>
+    <result xml:space="preserve">5 
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c73120">
+    <command xml:space="preserve">x function</command>
+    <result xml:space="preserve"> It looks boring.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c732a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c732a0">
+    <command xml:space="preserve">take function</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c73420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c73420">
+    <command xml:space="preserve">x function</command>
+    <result xml:space="preserve"> It has a label on it, which reads 5 . 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c735a0">
+    <command xml:space="preserve">take solid number</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c73720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c73720">
+    <command xml:space="preserve">x solid number</command>
+    <result xml:space="preserve">You see nothing special about the solid number.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c738a0">
+    <command xml:space="preserve">x solid number</command>
+    <result xml:space="preserve">It has the form of a 8 . It looks sturdy.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c73a20">
+    <command xml:space="preserve">x number</command>
+    <result xml:space="preserve">It has the form of a  7.5. It looks sturdy.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c73ba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c73ba0">
+    <command xml:space="preserve">take function</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c73d20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c73d20">
+    <command xml:space="preserve">x function</command>
+    <result xml:space="preserve"> It has a label on it, which reads 6 . 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c73ea0">
+    <command xml:space="preserve">x constant function</command>
+    <result xml:space="preserve"> It looks boring.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c90160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c90160">
+    <command xml:space="preserve">take constant function</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c902e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c902e0">
+    <command xml:space="preserve">x constant function</command>
+    <result xml:space="preserve"> It has a label on it, which reads 6 . 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c90460">
+    <command xml:space="preserve">x number seven</command>
+    <result xml:space="preserve">It has the form of a 7 . It looks sturdy.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c905e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c905e0">
+    <command xml:space="preserve">grab number</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c90760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c90760">
+    <command xml:space="preserve">take number</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c908e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c908e0">
+    <command xml:space="preserve">evaluate constant function on number seven</command>
+    <result xml:space="preserve">(first taking the constant function)
+
+It evaluates to  5.7
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c90a60">
+    <command xml:space="preserve">evaluate sign function on number seven</command>
+    <result xml:space="preserve">(first taking the sign function)
+
+It evaluates to 1.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c90be0">
+    <command xml:space="preserve">test evaluate</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] evaluate sign function on number
+(first taking the sign function)
+
+It evaluates to -1.
+
+&gt;[2] evaluate sign function on constant function
+(first taking the constant function)
+
+It evaluates to 1.
+
+&gt;[3] evaluate linear function on number
+(first taking the linear function)
+
+It evaluates to -13.0.
+
+&gt;[4] evaluate linear function on constant function
+It evaluates to 12.4.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1c90d60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1c90d60">
+    <command xml:space="preserve">test derive</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] derive myself
+That noun did not make sense in this context.
+
+&gt;[2] differentiate myself
+That noun did not make sense in this context.
+
+&gt;[3] derive constant function
+I wouldn&apos;t know where to start!
+
+&gt;[4] take differential operator
+Taken.
+
+&gt;[5] derive constant function
+It was his own fault, really.
+
+&gt;[6] x constant function
+ It has a label on it, which reads 0 . 
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1c90ee0">
+    <command xml:space="preserve">Test evaluate</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] evaluate sign function on number
+(first taking the sign function)
+
+It evaluates to -1.
+
+&gt;[2] evaluate sign function on constant function
+(first taking the constant function)
+
+It evaluates to 1.
+
+&gt;[3] evaluate linear function on number
+(first taking the linear function)
+
+It evaluates to 
+*** Run-time problem P10: Since the linear function is not allowed the property &quot;stubbornness&quot;, it is against the rules to try to use it.
+
+1.0.
+
+&gt;[4] evaluate linear function on constant function
+It evaluates to 
+*** Run-time problem P10: Since the linear function is not allowed the property &quot;stubbornness&quot;, it is against the rules to try to use it.
+
+1.0.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
