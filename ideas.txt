@@ -1,3 +1,7 @@
 https://www.reddit.com/r/math/comments/7gqhlc/what_to_say_instead_of_trivially/
 
 Usar el link de arriba para generar respuestas de un bot sobre un teorema!!
+
+Por ejemplo, si querés aprender algo, tenés la acción preguntarle a un profesor.
+El profesor te responde con alguna frase random.
+Y vos pensás "la puta madre, quiero aprenderlo en serio" o alguna otra cosa random también
